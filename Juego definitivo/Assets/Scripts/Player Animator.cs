@@ -11,10 +11,12 @@ public class PlayerAnimator : MonoBehaviour
 
 
 
+
     [Header("References")]
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D playerRigidbody;
     [SerializeField] private PlayerAttack PlayerAttack;
+    
 
     private int Is_movingHash;
     private int Is_idleHash;

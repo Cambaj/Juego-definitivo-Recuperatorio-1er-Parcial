@@ -249,7 +249,8 @@ GameObject:
   - component: {fileID: 376678179}
   - component: {fileID: 376678181}
   - component: {fileID: 376678180}
-  m_Layer: 0
+  - component: {fileID: 376678182}
+  m_Layer: 7
   m_Name: Dummy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +277,7 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -403,7 +404,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.859375}
+  m_Offset: {x: 0, y: 0.68}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -413,8 +414,30 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.125, y: 1.71875}
+  m_Size: {x: 1.01, y: 1.42}
   m_EdgeRadius: 0
+--- !u!95 &376678182
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376678176}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b32f9021706c54d49a98afe5a527eb37, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &513189134
 GameObject:
   m_ObjectHideFlags: 0
@@ -6843,7 +6866,7 @@ Transform:
   m_GameObject: {fileID: 1083167929}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.68, y: 0.54, z: 0}
+  m_LocalPosition: {x: -5.71, y: 0.54, z: 0}
   m_LocalScale: {x: 6.33, y: 5.68633, z: 4.7778172}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6961,8 +6984,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1083167939}
   playerAnimator: {fileID: 1083167934}
   attackController: {fileID: 1083167931}
-  attackRange: 0.5
-  attackDamage: 20
+  attackRange: 2
+  attackDamage: 50
   attackCooldown: 0.5
   attackDuration: 0.3
   timeToHit: 0.1
@@ -7342,6 +7365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2045443957}
   - component: {fileID: 2045443956}
+  - component: {fileID: 2045443958}
   m_Layer: 7
   m_Name: Grass
   m_TagString: Untagged
@@ -7419,6 +7443,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2045443958
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045443955}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 16b479b9e415e804c99a1fc415ab4df8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2097101519
 GameObject:
   m_ObjectHideFlags: 0
