@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|c:\\users\\aaron\\juego-definitivo\\juego definitivo\\assets\\scripts\\enemy script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\assets\\scripts\\camera follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\assets\\scripts\\player movment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player movment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|c:\\users\\aaron\\juego-definitivo\\juego definitivo\\assets\\scripts\\player movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\assets\\scripts\\player attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\assets\\scripts\\enemy script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\assets\\scripts\\camera follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\assets\\scripts\\screen manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{675F3FD6-56EE-5E5D-FEDD-4CD5696FF469}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\screen manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Movment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Movment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player Movement.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Movement.cs",
+              "ToolTip": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Movement.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\Player Movement.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T07:42:08.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -54,31 +71,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Player Attack.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Attack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Attack.cs",
               "ToolTip": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Attack.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Attack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T04:55:41.392Z"
+              "WhenOpened": "2025-12-01T04:55:41.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Player Animator.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Animator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Animator.cs",
               "ToolTip": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Animator.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Animator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T04:55:05.422Z"
+              "WhenOpened": "2025-12-01T04:55:05.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Enemy Script.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Enemy Script.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Script.cs",
@@ -86,12 +105,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Script.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T04:52:49.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T04:52:49.165Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Camera Follow.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Camera Follow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera Follow.cs",
@@ -103,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Player Movment.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\Juego-definitivo\\Juego definitivo\\Assets\\Scripts\\Player Movment.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Movment.cs",

@@ -11,13 +11,14 @@ public class PlayerMovment : MonoBehaviour
         //Inputs movementes
         [SerializeField] private InputActionReference moveAction;
         [SerializeField] private InputActionReference jumpAction;
-        [SerializeField] private InputActionReference fallingAction;
+       
         //Inputs animations
         [SerializeField] private Rigidbody2D playerRigidbody;
         [SerializeField] private SpriteRenderer spriteRenderer;
 
         [Header("Animator Controller")]
         [SerializeField] private PlayerAnimator playerAnimator;
+        [SerializeField] private PlayerAttack playerAttack;  
 
         [Header("Movement Settings")]
         [SerializeField] private float moveSpeed = 5f;              // Velocidad de movimiento
@@ -61,6 +62,7 @@ public class PlayerMovment : MonoBehaviour
 
         private void Update() //Valores de movimiento 
         {
+           
             // Leer el input del jugador (eje horizontal)
             moveInput = moveAction.action.ReadValue<Vector2>();
 
