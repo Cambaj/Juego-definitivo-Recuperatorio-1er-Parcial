@@ -1,7 +1,12 @@
-[Ll]ibrary/
-/[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+# Ignorar carpetas basura en cualquier lugar del proyecto
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+
+# Archivos de sistema basura
+.DS_Store
+Thumbs.db
