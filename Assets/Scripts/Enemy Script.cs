@@ -16,7 +16,7 @@ public class EnemyScript : MonoBehaviour
 
         private Color originalColor;
         private Coroutine flashCoroutine;
-        private Animator animator; //Ver si despues esto afecta o lo elimino
+        private Animator animator; 
 
         private void Start()
         {

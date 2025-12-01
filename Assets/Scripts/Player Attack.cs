@@ -9,7 +9,7 @@ public class PlayerAttack : MonoBehaviour
   
 [Header("References")]
     [SerializeField] private InputActionReference attackAction;
-    //Input animations
+   
     [SerializeField] private Rigidbody2D playerRigidbody;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private PlayerAnimator playerAnimator;
@@ -30,7 +30,7 @@ public class PlayerAttack : MonoBehaviour
     public bool Is_attacking { get; private set; }
     private bool canAttack = true;
 
-    //agregarle todos los corchetes a las variables si no funcionan 
+   
     private void OnEnable()
     {
         if (attackAction != null)
@@ -74,7 +74,7 @@ public class PlayerAttack : MonoBehaviour
                 if (enemy.TryGetComponent(out EnemyScript enemyHealth))
                 {
                     enemyHealth.TakeDamage(attackDamage);
-                    Debug.Log("You hit" + enemy.name); //Ponerle como se llama el enemigo 
+                    Debug.Log("You hit" + enemy.name); 
                 }
 
             }
@@ -82,7 +82,7 @@ public class PlayerAttack : MonoBehaviour
 
         catch (System.Exception)
         {
-            Debug.LogError("Error calculando el daño:");
+            Debug.LogError("Error calculating damage");
         }
 
         yield return new WaitForSeconds(attackDuration);
