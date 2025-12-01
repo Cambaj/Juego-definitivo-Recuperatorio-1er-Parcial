@@ -46,8 +46,6 @@ public class PlayerMovment : MonoBehaviour
             jumpAction.action.Enable();
 
             jumpAction.action.started += HandleJumpInput;
-
-
         }
 
         private void OnDisable()
